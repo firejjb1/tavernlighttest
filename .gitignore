@@ -1,0 +1,11 @@
+forgottenserver/*
+
+.vscode/*
+
+UniServerZ/*
+
+otclient/*
+
+tfs-v1.4-windows-msvc-Release-luajit/*
+
+vcpkg/*
