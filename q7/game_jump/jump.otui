@@ -1,0 +1,16 @@
+MainWindow
+  id: jumpWindow
+  !text: tr('Jump')
+  size: 600 650
+
+  @onEnter: modules.game_jump.destroy()
+  @onEscape: modules.game_jump.destroy()
+
+  Button
+    id: movingButton
+    size: 100 50
+    !text: tr('Jump1')
+    !tooltip: tr('Jump')
+    anchors.right: parent.right
+    anchors.top: parent.top
+    &onClick: onJumpButtonClick

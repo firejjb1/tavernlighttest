@@ -1,0 +1,9 @@
+Module
+  name: game_jump 
+  description: display a jump button that moves
+  author: jian
+  website: 
+  sandboxed: true
+  scripts: [ jump.lua ]
+  @onLoad: init()
+  @onUnload: terminate()
